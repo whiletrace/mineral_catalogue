@@ -1,30 +1,31 @@
 from django.db import models
 
+
 # Create your models here.
 
-# todo class Mineral will inherit from models.Model
-#   Model attr :
-"""
-name
-image filename
-image caption
-category
-formula
-strunz classification
-color
-crystal system
-unit cell
-crystal symmetry
-cleavage
-mohs scale hardness
-luster
-streak
-diaphaneity
-optical properties
-refractive index
-crystal habit
-specific gravity
+class Mineral(models.Model):
 
-"""
+    name = models.CharField(max_length=100, blank=True, default='')
+    image_filename = models.FilePathField(
+        'trace_minerals/static/trace_minerals/img')
+    image_caption = models.CharField(max_length=100, blank=True, default='')
+    category = models.CharField(max_length=100, blank=True, default='')
+    formula = models.CharField(max_length=100, blank=True, default='')
+    strunz_classification = models.CharField(max_length=100, blank=True, default='')
+    color = models.CharField(max_length=100, blank=True, default='')
+    crystal_system = models.CharField(max_length=100, blank=True, default='')
+    unit_cell = models.CharField(max_length=100, blank=True, default='')
+    crystal_symmetry = models.CharField(max_length=100, blank=True, default='')
+    cleavage = models.CharField(max_length=100, blank=True, default='')
+    mohs_hardness_scale = models.CharField(max_length=100, blank=True, default='')
+    luster = models.CharField(max_length=100, blank=True, default='')
+    streak = models.CharField(max_length=100, blank=True, default='')
+    diaphaneity = models.CharField(max_length=100, blank=True, default='')
+    optical_properties = models.CharField(max_length=100, blank=True, default='')
+    refractive_index = models.CharField(max_length=100, blank=True, default='')
+    crystal_habit = models.CharField(max_length=100, blank=True, default='')
+    specific_gravity = models.CharField(max_length=100, blank=True, default='')
+
+
 # not all data will have all attr so as available blank=True or default=""
 # this will very based on data type of deserialization

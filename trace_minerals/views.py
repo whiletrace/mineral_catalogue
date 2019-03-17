@@ -1,17 +1,14 @@
 from django.shortcuts import render
-
+from .models import Mineral
 # Create your views here.
 
 
-# todo view_tests: index
-#   write query provides a list of minerals from database type query object
-#   store query in variable
-#   route the view logic to URL address
-#   render template and pass query as context to template
+#
+def mineral_list(request):
+    minerals = Mineral.objects.all()
+    return render(request, 'trace_minerals/index.html', {'minerals': minerals})
 
-# todo class view_tests:detail
-#   query will be based upon primary key
-#   query provides query object containing values of  minerals attr
-#   view uses proper URL
-#   that proper var and pk are passed through context
-#   render detail template pass context and set Url
+
+def mineral_detail(request, pk):
+    mineral = Mineral.objects.get(pk=pk)
+    return render(request, 'trace_minerals/detail.html', {'mineral': mineral})

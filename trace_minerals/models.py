@@ -17,7 +17,7 @@ class Mineral(models.Model):
     unit_cell = models.CharField(max_length=100, blank=True, default='')
     crystal_symmetry = models.CharField(max_length=100, blank=True, default='')
     cleavage = models.CharField(max_length=100, blank=True, default='')
-    mohs_hardness_scale = models.CharField(max_length=100, blank=True, default='')
+    mohs_scale_hardness = models.CharField(max_length=100, blank=True, default='')
     luster = models.CharField(max_length=100, blank=True, default='')
     streak = models.CharField(max_length=100, blank=True, default='')
     diaphaneity = models.CharField(max_length=100, blank=True, default='')
@@ -25,7 +25,6 @@ class Mineral(models.Model):
     refractive_index = models.CharField(max_length=100, blank=True, default='')
     crystal_habit = models.CharField(max_length=100, blank=True, default='')
     specific_gravity = models.CharField(max_length=100, blank=True, default='')
-
-
+    group = models.CharField(max_length=100, blank=True, default='')
 # not all data will have all attr so as available blank=True or default=""
 # this will very based on data type of deserialization

@@ -28,3 +28,4 @@ urlpatterns = [
     path('', views.home, name='home'),
 
 ]
+urlpatterns += staticfiles_urlpatterns()

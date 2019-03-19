@@ -7,7 +7,7 @@ class Mineral(models.Model):
 
     name = models.CharField(max_length=100, blank=True, default='')
     image_filename = models.FilePathField(
-        'trace_minerals/static/trace_minerals/img')
+        'trace_minerals/images/')
     image_caption = models.CharField(max_length=100, blank=True, default='')
     category = models.CharField(max_length=100, blank=True, default='')
     formula = models.CharField(max_length=100, blank=True, default='')
@@ -28,3 +28,7 @@ class Mineral(models.Model):
     group = models.CharField(max_length=100, blank=True, default='')
 # not all data will have all attr so as available blank=True or default=""
 # this will very based on data type of deserialization
+
+    def __iter__(self):
+        for field in self._meta.fields:
+            yield (field.verbose_name, field.value_to_string(self))

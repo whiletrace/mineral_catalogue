@@ -113,7 +113,7 @@ class MineralViewsTests(TestCase):
         self.assertIn(self.mineral, resp.context['minerals'])
         self.assertIn(self.mineral2, resp.context['minerals'])
         self.assertTemplateUsed(resp, 'trace_minerals/index.html')
-        self.assertTrue(resp, type(object))
+        self.assertContains(resp, self.mineral.name)
 
 # todo class view_tests:detail
 #   Assert query provides a list of minerals

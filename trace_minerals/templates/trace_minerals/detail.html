@@ -1,5 +1,31 @@
 {% extends 'layout.html' %}
+{% load static from staticfiles %}
 
 {% block title %} detail {% endblock %}
 
-{% block content %} {% endblock %}
+{% block content %}
+
+
+    <div class="grid-100 mineral__container">
+        <h1 class="mineral__name">{{ mineral.name }}</h1>
+    <div class="mineral__image-bg">
+        <img class="mineral__image" src='{{ "trace_minerals/images/mineral.name.jpg"  }}'>
+    <p class="mineral__caption">{{ mineral.image_caption }} </p>
+    </div>
+    <div class="mineral__table-container">
+        <table class="mineral__table">
+            {% for field, val in mineral %}
+                 {% if field not in "ID name image filename image caption trace_minerals/images/" and val %}
+            <tr>
+                <td class="mineral__category">{{field}}</td>
+                <td>{{val}}</td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+
+        </table>
+
+
+    </div>
+    </div>
+{% endblock %}

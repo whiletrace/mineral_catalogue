@@ -16,16 +16,16 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from . import views
+
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
+#project wide URL
 urlpatterns = [
+    path('', include('trace_minerals.urls', namespace='trace_minerals')),
     path('admin/', admin.site.urls),
-    # todo Project wide Url patterns
-    #   app specific url will inherit from this Url
-    path('trace_minerals/',
-         include('trace_minerals.urls', namespace='trace_minerals'),),
-    path('', views.home, name='home'),
+
+
+
 
 ]
 urlpatterns += staticfiles_urlpatterns()

@@ -6,27 +6,19 @@
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cceb1f2-3483-4b44-9b19-01a9ca66dae0" name="Default Changelist" comment="initial commit with project plan">
-      <change afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bin/activate" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bin/activate.csh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bin/activate.fish" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bin/django-admin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bin/django-admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bin/python" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/bin/python3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/pip-selfcheck.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bin/pyvenv.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/minerals.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css" afterDir="false" />
+    <list default="true" id="9cceb1f2-3483-4b44-9b19-01a9ca66dae0" name="Default Changelist" comment="mvp has been reached">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_proj6/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/python_proj6/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_proj6/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace_minerals/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace_minerals/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace_minerals/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace_minerals/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,51 +28,65 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_proj6$Test__trace_minerals_tests_MineralModelTests.coverage" NAME="Test: trace_minerals.tests.MineralModelTests Coverage Results" MODIFIED="1552785484023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/python_proj6$test_django.coverage" NAME="test django Coverage Results" MODIFIED="1552985707647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python_proj6$test_django.coverage" NAME="test django Coverage Results" MODIFIED="1553023350805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="131" />
+    <option name="myElementSize" value="200" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="118" column="49" lean-forward="true" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_proj6/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trace_minerals/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="220">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html">
+        <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="264">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding>
+                <element signature="e#49#81#0" expanded="true" />
+              </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainite.jpg">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainosite.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -140,8 +146,6 @@
       <list>
         <option value="$PROJECT_DIR$/Trace_Minerals/models.py" />
         <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/python_proj6/views.py" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2326.py" />
         <option value="$PROJECT_DIR$/hold.py" />
         <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0201.py" />
@@ -149,27 +153,30 @@
         <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0214.py" />
         <option value="$PROJECT_DIR$/data/minerals.json" />
         <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0649.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/urls.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/views.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/tests.py" />
         <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0653.py" />
-        <option value="$PROJECT_DIR$/python_proj6/urls.py" />
         <option value="$PROJECT_DIR$/python_proj6/settings.py" />
         <option value="$USER_HOME$/Desktop/minerals-3/example/index.html" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html" />
         <option value="$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/models.py" />
         <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" />
+        <option value="$PROJECT_DIR$/templates/home.html" />
+        <option value="$PROJECT_DIR$/assets/css/global.css" />
+        <option value="$PROJECT_DIR$/bin/pyvenv.cfg" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/trace_minerals/views.py" />
+        <option value="$PROJECT_DIR$/trace_minerals/urls.py" />
+        <option value="$PROJECT_DIR$/trace_minerals/models.py" />
+        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py" />
+        <option value="$PROJECT_DIR$/python_proj6/urls.py" />
+        <option value="$PROJECT_DIR$/python_proj6/views.py" />
+        <option value="$PROJECT_DIR$/trace_minerals/tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="197" />
-    <option name="y" value="23" />
-    <option name="width" value="1580" />
-    <option name="height" value="877" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -188,17 +195,7 @@
             <path>
               <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
@@ -215,8 +212,7 @@
               <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
               <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
+              <item name="tests.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -230,7 +226,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyDebuggerOptionsProvider">
     <option name="mySaveCallSignatures" value="true" />
@@ -257,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.test django">
+  <component name="RunManager" selected="Django server.python_proj6">
     <configuration name="test django" type="DjangoTestsConfigurationType" activateToolWindowBeforeRun="false">
       <module name="python_proj6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -344,7 +340,8 @@
       <workItem from="1552600515698" duration="853000" />
       <workItem from="1552601961331" duration="105000" />
       <workItem from="1552604171197" duration="4649000" />
-      <workItem from="1552609847467" duration="65245000" />
+      <workItem from="1552609847467" duration="78095000" />
+      <workItem from="1553034904964" duration="3549000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with project plan">
       <created>1552610155092</created>
@@ -367,13 +364,17 @@
       <option name="project" value="LOCAL" />
       <updated>1552786695484</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="layout template complete, index.template complete, detail template near complete&#10;todo finish detail template get images to load correctly">
+      <created>1552986046850</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552986046850</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_django - 2019.03.17 at 23h 56m 03s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
     <history-entry file="test_django - 2019.03.17 at 23h 56m 19s.xml">
       <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
@@ -401,9 +402,12 @@
     <history-entry file="test_django - 2019.03.19 at 01h 55m 21s.xml">
       <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="test_django - 2019.03.19 at 12h 22m 37s.xml">
+      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70852000" />
+    <option name="totallyTimeSpent" value="87251000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,13 +420,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14536741" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16693291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24615385" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24615385" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -433,13 +438,37 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007987" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" weight="0.17" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
-      <window_info active="true" anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.15295528" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.15295528" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16693291" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24615385" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960065" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007987" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" weight="0.17" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.15295528" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -453,7 +482,8 @@
     <MESSAGE value="initial commit with project plan" />
     <MESSAGE value="Written model and tests project URl layout and home skeleton templates" />
     <MESSAGE value="custom migration, app URL, views implemented 92% test coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="custom migration, app URL, views implemented 92% test coverage" />
+    <MESSAGE value="layout template complete, index.template complete, detail template near complete&#10;todo finish detail template get images to load correctly" />
+    <option name="LAST_COMMIT_MESSAGE" value="layout template complete, index.template complete, detail template near complete&#10;todo finish detail template get images to load correctly" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/manage.py">
@@ -465,12 +495,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../../Pythonlearning/django_learning2/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor" />
@@ -495,90 +519,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2045.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2326.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" lean-forward="true" selection-end-line="30" />
-          <folding>
-            <element signature="e#48#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0201.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding>
-            <element signature="e#48#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hold.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" lean-forward="true" selection-start-line="1" selection-end-line="31" />
-          <folding>
-            <element signature="e#48#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/lib/python3.7/site-packages/django/core/serializers/python.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0214.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" lean-forward="true" selection-start-line="2" selection-end-line="35" />
-          <folding>
-            <element signature="e#49#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0649.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#49#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2045.py" />
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2326.py" />
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0201.py" />
+    <entry file="file://$PROJECT_DIR$/hold.py" />
+    <entry file="file://$PROJECT_DIR$/bin/lib/python3.7/site-packages/django/core/serializers/python.py" />
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0214.py" />
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0649.py" />
     <entry file="file://$PROJECT_DIR$/trace_minerals/apps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -586,53 +533,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_proj6/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.coverage">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_proj6/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="876">
-          <caret line="124" column="37" lean-forward="true" selection-start-line="124" selection-start-column="37" selection-end-line="124" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/css/global.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/css/global.css" />
+    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/index.html" />
     <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -640,70 +545,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#636#668#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/detail.html" />
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0653.py" />
+    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainite.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2133">
-          <caret line="195" column="78" lean-forward="true" selection-start-line="195" selection-start-column="78" selection-end-line="195" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0653.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding>
-            <element signature="e#49#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/minerals.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="3432" column="13" selection-start-line="3432" selection-start-column="9" selection-end-line="3432" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-          <folding>
-            <element signature="e#49#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainosite.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -712,23 +560,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainite.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainosite.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/data/minerals.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2376">
+          <caret line="3432" column="13" selection-start-line="3432" selection-start-column="9" selection-end-line="3432" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
+        <state relative-caret-position="638">
+          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="12" column="68" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_proj6/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/pip-selfcheck.json" />
+    <entry file="file://$PROJECT_DIR$/bin/pyvenv.cfg" />
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0003_auto_20190319_0753.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0004_auto_20190319_0941.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_proj6/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="e#228#237#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/lib/python3.7/site-packages/django/template/defaulttags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/lib/python3.7/site-packages/django/core/handlers/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="220">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#49#81#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_proj6/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="118" column="49" lean-forward="true" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

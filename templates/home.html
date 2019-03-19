@@ -1,15 +1,16 @@
-{% extends 'layout.html' %}
+<!DOCTYPE html>
+{% load static from staticfiles %}
 
+<html lang="en">
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{% static 'css/global.css' %}">
+    <meta charset="UTF-8">
+    <title>home</title>
+</head>
+<body>
+<div class="home_title"><h1>title</h1></div>
 
-    {% block title %}
-        home
-    {% endblock %}
-
-
-{% block content%}
-
-<h1>
-    Minerals
-</h1>
-{% endblock %}
-
+</body>
+</html>

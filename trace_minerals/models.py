@@ -4,10 +4,14 @@ from django.db import models
 # Create your models here.
 
 class Mineral(models.Model):
+    """
+        Mineral model controls the instantiation of models.mineral objects
 
+        as well as creation of tables within db to store data that is
+        queried.  methods def__iter__:
+    """
     name = models.CharField(max_length=100, blank=True, default='')
-    image_filename = models.FilePathField(
-        'trace_minerals/images/')
+    image_filename = models.CharField(max_length=100, blank=True, default='')
     image_caption = models.CharField(max_length=100, blank=True, default='')
     category = models.CharField(max_length=100, blank=True, default='')
     formula = models.CharField(max_length=100, blank=True, default='')
@@ -30,5 +34,8 @@ class Mineral(models.Model):
 # this will very based on data type of deserialization
 
     def __iter__(self):
+        """
+            method for  iteration over the fields and values of obj
+        """
         for field in self._meta.fields:
             yield (field.verbose_name, field.value_to_string(self))

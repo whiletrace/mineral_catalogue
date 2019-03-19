@@ -4,14 +4,14 @@ from django.urls import reverse
 # Create your tests here.
 from .models import Mineral
 
-# todo class Model_tests will inherit from TestCase
-#  test to make sure that model Minerals
-#  a new instance of mineral
-#  test that minerals attr are of the correct type
 
 class MineralModelTests(TestCase):
-
+    """ unit test for the db """
     def test_mineral_creation(self):
+        """ tests creation of mineral objects:
+
+        asserts correct type, instance of, and contains
+        """
         mineral = Mineral.objects.create(
             name='trace mineral',
             image_filename="240px-Abernathyite%2C_Heinrichite-497484.jpg,",
@@ -42,20 +42,10 @@ class MineralModelTests(TestCase):
         self.assertTrue(hasattr(mineral, 'crystal_symmetry'))
 
 
-# todo test custom migration
-#   incoming data format is json
-#   deserialized format is type object
-#   deserialized data populates Model Minerals
-
-# todo class view_tests: index
-#   Assert query provides a list of minerals
-#   assert view uses proper URL
-#   assert that proper var are passed through context
-#   assert value of var passed through context is expected val
-#   assert that proper template is rendered by view
 class MineralViewsTests(TestCase):
-
+    """ tests for views"""
     def setUp(self):
+        """ setup for tests to instantiate mineral objects to test against"""
         self.mineral = Mineral.objects.create(
             name='trace mineral',
             image_filename="240px-Abernathyite%2C_Heinrichite-497484.jpg,",
@@ -108,6 +98,13 @@ class MineralViewsTests(TestCase):
         )
 
     def test_minerals_list_view(self):
+        """
+            unit test for index view logic
+
+            asserts correct status code,  context,,
+            template rendered, and contains
+
+        """
         resp = self.client.get(reverse('trace_minerals:trace_minerals_index'))
         self.assertEqual(resp.status_code, 200)
         self.assertIn(self.mineral, resp.context['minerals'])
@@ -115,13 +112,14 @@ class MineralViewsTests(TestCase):
         self.assertTemplateUsed(resp, 'trace_minerals/index.html')
         self.assertContains(resp, self.mineral.name)
 
-# todo class view_tests:detail
-#   Assert query provides a list of minerals
-#   assert view uses proper URL
-#   assert that proper var are passed through context
-#   assert value of var passed through context is expected val
-#   assert that proper template is rendered by view
     def test_mineral_detail_view(self):
+        """
+                    unit test for detail view logic
+
+                    asserts correct status code, context,
+                    and that pk is present
+
+                """
         resp = self.client.get(reverse('trace_minerals:trace_minerals_detail',
                                        kwargs={'pk': self.mineral.pk}))
         self.assertEqual(resp.status_code, 200)

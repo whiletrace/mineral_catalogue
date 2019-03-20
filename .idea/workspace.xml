@@ -1,25 +1,884 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoTestManager">
-    <enabled-run-configurations>
-      <run-configuration type="DjangoTestsConfigurationType" name="test django" />
-    </enabled-run-configurations>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9cceb1f2-3483-4b44-9b19-01a9ca66dae0" name="Default Changelist" comment="mvp has been reached">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Abelsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Abernathyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Abhurite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Abramovite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Acanthite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Actinolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Adamite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Adamsite-(Y).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aegirine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aenigmatite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aerinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aeschynite-(Y).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Afghanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Afwillite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Agardite-(Y), Agardite-(Ce), Agardite-(Nd), Agardite-(La).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Agrellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aguilarite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aheylite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aikinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ajoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Akaganeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alabandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alamosite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Albite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Algodonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aliettite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Allactite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Allanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Allanpringite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Allargentum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alleghanyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Allophane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alluaudite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Almandine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alstonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Altaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alum-(K).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aluminite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alunite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Alunogen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Amarantite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Amblygonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Amesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Analcime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Anapaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Anatase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ancylite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Andalusite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Andersonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Andesine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Andorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Andradite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Andyrobertsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Anglesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Anhydrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ankerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Annabergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Annite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Anorthite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Anorthoclase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Anthophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Antlerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Apatite group.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aphthitalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Apophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aragonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Arcanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ardaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Arfvedsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Argyrodite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Armalcolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Arseniosiderite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Arsenolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Arsenopyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Arthurite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Artinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Artroeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Asisite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Astrophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Atacamite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Augelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Augite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Aurichalcite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Auricupride.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Austinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Autunite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Avogadrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Awaruite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Axinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Azurite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Babingtonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Baddeleyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bakerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Barrerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Barstowite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Baryte (barite).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Barytocalcite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bastnäsite, bastnaesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Baumhauerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bayldonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bayleyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Becquerelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Benitoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Benstonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Beraunite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bergenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Berlinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Berthierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bertrandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Beryl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Beryllonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Beudantite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bicchulite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Billietite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Biotite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Birnessite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bischofite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bismite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bismuthinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bismutite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bixbyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Blödite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Boehmite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Boleite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Boltwoodite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Boracite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bornite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Botallackite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Botryogen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Boulangerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bournonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Braunite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brazilianite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Breithauptite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brewsterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brianyoungite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brochantite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bromargyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brookite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brownmillerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brucite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Brushite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bukovskyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bultfonteinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bunsenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Bustamite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cacoxenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cadmoindite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cafarsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cahnite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Calaverite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Calcite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Caledonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Calumetite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cancrinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Canfieldite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carletonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carlsbergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carminite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carnallite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carnotite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carpathite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carpholite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Carrollite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Caryopilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cassiterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cavansite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Celadonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Celestine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Celsian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cerussite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cervantite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chabazite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chalcanthite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chalcocite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chalcophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chalcopyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chambersite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chamosite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chapmanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Charoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chesterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Childrenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chlorargyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chlorite group.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chloritoid.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chlormayenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chloroxiphite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chondrodite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chromite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chrysoberyl.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chrysocolla.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Chrysotile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cinnabar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Clausthalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Clinoclase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Clinodehrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Clinohumite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Clinoptilolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Clinozoisite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Clintonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cobaltite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Coccinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Coesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Coffinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Colemanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Collinsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Coloradoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Columbite-(Fe).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Conichalcite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Connellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Copiapite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Copper.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Corderoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cordierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cornubite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cornwallite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Corundum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cotunnite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Covellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Creedite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cristobalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Crocoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cronstedtite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Crossite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cryolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cryptomelane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cubanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cummingtonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cuprite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cuprosklodowskite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Curite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cyanotrichite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cylindrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Cyrilovite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Danalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Danburite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Datolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Daubréelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Davidite-(La).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dawsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Delafossite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Demesmaekerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Derriksite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Descloizite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Devilline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Diaboleite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Diadochite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Diamond.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Diaspore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dickite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Digenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Diopside.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dioptase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Djurleite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dollaseite-(Ce).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dolomite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Domeykite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Duftite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dumortierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dundasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Dyscrasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Edenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Edingtonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Elbaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Emmonsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Enargite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Enstatite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Eosphorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ephesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Epidote.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Epsomite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Erionite-Na.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Erythrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Eskolaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Esperite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ettringite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Euchroite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Euclase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Eucryptite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Eudialyte.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Euxenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Evenkite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Faujasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fayalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Feldspar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ferberite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fergusonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ferrierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ferrihydrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ferrimolybdite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fettelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluckite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluor-buergerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluor-liddicoatite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluor-uvite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluorapatite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluorapophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluorellestadite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fluororichterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fornacite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Forsterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fourmarierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Fraipontite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Francevillite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Franckeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Franklinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Freibergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Freieslebenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gadolinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gahnite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Galena (lead glance).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Galkhaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Garnet.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gaspeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gaylussite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gehlenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Geikielite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Geocronite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Germanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gersdorffite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Getchellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gibbsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gilalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Glauberite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Glaucodot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Glauconite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Glaucophane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gmelinite-Na.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Goethite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gonnardite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gormanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Goslarite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Graftonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Grandidierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Graphite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gratonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Greenockite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Greifensteinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Greigite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Grossular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Groutite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Grunerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Gypsum.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hagendorfite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Haiweeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Halite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Halloysite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Halotrichite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hambergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hanksite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hardystonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Harmotome.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hauerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hausmannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hawleyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Haüyne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Heazlewoodite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hectorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hedenbergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hellyerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hematite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hemimorphite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hemusite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Herbertsmithite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hercynite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Herderite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hessite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Heulandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hibonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hidalgoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hilgardite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hodgkinsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hoelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hollandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Holmquistite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hopeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hornblende.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Howlite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hsianghualite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hubeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hubnerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Humite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hureaulite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hutchinsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Huttonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hydroboracite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hydrogrossular.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hydrokenoelsmoreite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hydromagnesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hydrotalcite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hydroxylapatite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Hydrozincite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Idrialite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ikaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Illite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ilmenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ilvaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Inyoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Iodargyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Iron, native iron or telluric iron.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jacobsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jadarite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jadeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jalpaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jamesonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jarosite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jennite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jeremejevite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jimthompsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Johannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jordanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Julgoldite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Junitoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Jurbanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainosite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kalinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kamacite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kambaldaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kampfite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kaolinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kegelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kermesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kernite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kesterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Keyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kieserite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kinoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kogarkoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kolbeckite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kornerupine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kovdorskite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Krennerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Krieselite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kröhnkite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kurnakovite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kutnohorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kyanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Köttigite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Labradorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lanarkite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Langbeinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Langite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lanthanite-(La), Lanthanite-(Nd), Lanthanite-(Ce).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Laumontite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Laurionite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lavendulan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lawsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lazulite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lazurite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Leadhillite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Legrandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Leifite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Leightonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lepidocrocite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lepidolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Leucite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Leucophoenicite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Libethenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Liebigite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Linarite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lindgrenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Linnaeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lipscombite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Liroconite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lithiophilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Livingstonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Loellingite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lonsdaleite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Loparite-(Ce).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lopezite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lorenzenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lorándite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ludlamite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ludwigite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Lévyne.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Macdonaldite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mackinawite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Maghemite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Magnesioferrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Magnesiohastingsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Magnesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Magnetite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Malachite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Manganite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Manganosite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Manganvesuvianite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Marcasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Margarite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Marialite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Maricite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Marrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Marthozite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mascagnite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Massicot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Masuyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Matlockite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Maucherite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Meionite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Melanophlogite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Melanterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Melilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Melonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mendipite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Meneghinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Meridianiite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mesolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Messelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Metacinnabar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Metatorbernite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Metazeunerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Meyerhofferite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Miargyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mica.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Microlite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Millerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mimetite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Minium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Minyulite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mirabilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mixite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Moissanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Molybdenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Molybdite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Monazite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Monohydrocalcite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Monticellite-Kirschsteinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Montmorillonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Moolooite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mordenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Moschellandsbergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mottramite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Motukoreaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Mullite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Murdochite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Muscovite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nacrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nadorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nagyágite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nahcolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nambulite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Narsarsukite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Natrolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Natrophilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nelenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nenadkevichite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nepheline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Neptunite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nickeline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Niedermayrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nissonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Niter.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nitratine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nobleite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nontronite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Norbergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Northupite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Nosean.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Népouite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Okenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Olivenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Olivine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Orpiment.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Orthoclase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Osarizawaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Osumilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Otavite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ottrelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Painite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Palygorskite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Papagoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Paragonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Paralaurionite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Paramelaconite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pararealgar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pargasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Parisite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Parsonsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pascoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Patronite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pearcbuteite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pecoraite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pectolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Penroseite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pentagonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pentlandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Perhamite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Periclase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Perite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Perovskite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Petalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Petzite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pezzottaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pharmacolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pharmacosiderite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Phenakite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Phillipsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Phlogopite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Phoenicochroite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Phosgenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Phosphophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Phosphuranylite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pickeringite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Picropharmacolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Piemontite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pigeonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pinnoite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Plagioclase.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Plancheite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Plattnerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Plumbogummite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pollucite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Polybasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Polyhalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Portlandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Posnjakite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Poudretteite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Powellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Prehnite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Proustite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pseudobrookite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pseudomalachite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pumpellyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Purpurite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Putnisite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrargyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrochlore.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrolusite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyromorphite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrope.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrophanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyroxferroite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyroxmangite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pyrrhotite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Pääkkönenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rammelsbergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rapidcreekite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Raspite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Realgar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Renierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rheniite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rhodochrosite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rhodonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Richterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rickardite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Riebeckite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ringwoodite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Robertsite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rodalquilarite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Romanèchite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Romeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rosasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Roselite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rozenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ruizite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rutherfordine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Rutile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sabinaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Safflorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sal ammoniac.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Saleeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Samarskite-(Y).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sampleite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Samsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sanbornite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sanidine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Santabarbaraite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Saponite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sapphirine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sarkinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sassolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Satterlyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Scapolite group.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Scheelite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Schmiederite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Schoepite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Schreibersite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Schröckingerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Scolecite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Scorodite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Scorzalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Seamanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Searlesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Seeligerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Seifertite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Seligmannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sellaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Semseyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sepiolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Serandite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Serendibite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Serpierite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Shattuckite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Shigaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Shortite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Siderite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Siderophyllite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Siegenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sillimanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Simpsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sincosite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sinkankasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sklodowskite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Skutterudite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Smithsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sodalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Soddyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sonolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sperrylite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Spertiniite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Spessartine.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sphalerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Spherocobaltite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Spinel.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Spodumene.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Spurrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Staurolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Steacyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stellerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stephanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stibarsen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stibiconite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stibiopalladinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stibnite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stichtite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stilbite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stilpnomelane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stolzite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Strashimirite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Strengite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stromeyerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Strontianite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Struvite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Studtite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Stützite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sugilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Susannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sussexite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Svanbergite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Switzerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sylvanite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Sylvite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Syngenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Taaffeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Taenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Talc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Talmesite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Talnakhite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tangeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tantalite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tapiolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Taranakite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tarbuttite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tausonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Teallite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tellurite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tennantite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tenorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tephroite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Terlinguaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tetradymite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tetrahedrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thaumasite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thenardite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thermonatrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thomasclarkite-(Y).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thomsenolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thomsonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thorianite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Thortveitite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tiemannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tincalconite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Titanite (Sphene).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tobermorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Todorokite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Topaz.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Torbernite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tourmaline.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tremolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tridymite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Triplite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Triploidite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Troilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Trona.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tschermakite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tschermigite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tsumcorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tsumebite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tugtupite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tungstite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tuperssuatsiaite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Turquoise.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tyrolite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Tyuyamunite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ulexite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ullmannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Ulrichite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Umangite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Uraninite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Uranocircite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Uranophane.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Uranopilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Uvarovite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Uytenbogaardite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Valentinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Valleriite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vanadinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Variscite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vaterite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vauquelinite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vauxite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Veatchite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vermiculite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vesuvianite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Villiaumite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vishnevite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vivianite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vladimirite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Vlasovite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Volborthite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wakabayashilite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wakefieldite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Walfordite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wardite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Warikahnite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Warwickite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wavellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Weddellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Weloganite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Whewellite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Whiteite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Whitlockite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wikipedia-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Willemite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wiluite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Witherite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wodginite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wolframite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wollastonite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Woodhouseite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wulfenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Wurtzite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Xenotime.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Xocomecatlite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Xonotlite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zanazziite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zaratite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zaïrite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zektzerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zemannite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zeunerite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zincite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zinclipscombite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zinkenite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zinnwaldite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zippeite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zircon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zoisite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zorite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Zunyite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/calderite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/claudetite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Åkermanite.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_proj6/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_proj6/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/views.py" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,10 +887,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_proj6$Test__trace_minerals_tests_MineralModelTests.coverage" NAME="Test: trace_minerals.tests.MineralModelTests Coverage Results" MODIFIED="1552785484023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/python_proj6$test_django.coverage" NAME="test django Coverage Results" MODIFIED="1553023350805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-  </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="200" />
+    <SUITE FILE_PATH="coverage/python_proj6$test_django.coverage" NAME="test django Coverage Results" MODIFIED="1553040578757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
@@ -41,8 +897,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="352">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -50,8 +906,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="118" column="49" lean-forward="true" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+            <state relative-caret-position="2294">
+              <caret line="119" column="42" selection-start-line="119" selection-start-column="42" selection-end-line="119" selection-end-column="42" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -60,19 +916,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_proj6/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trace_minerals/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="704">
+              <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -80,7 +927,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="154">
               <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="e#49#81#0" expanded="true" />
@@ -99,82 +946,10 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Title</find>
-      <find>image filename</find>
-      <find>image caption</find>
-      <find>strunz classification</find>
-      <find>crystal system</find>
-      <find>unit cell</find>
-      <find>crystal symmetry</find>
-      <find>mohs scale hardness</find>
-      <find>optical properties</find>
-      <find>refractive index</find>
-      <find>crystal habit</find>
-      <find>specific_gravity</find>
-      <find>specific gravity</find>
-      <find>spec</find>
-      <find>minerals__item</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>image_filename</replace>
-      <replace>image_caption</replace>
-      <replace>strunz_classification</replace>
-      <replace>crystal_system</replace>
-      <replace>unit_cell</replace>
-      <replace>crystal_symmetry</replace>
-      <replace>mohs_scale_hardness</replace>
-      <replace>optical_properties</replace>
-      <replace>refractive_index</replace>
-      <replace>crystal_habit</replace>
-      <replace>specific_gravity</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="REBASE" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Trace_Minerals/models.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2326.py" />
-        <option value="$PROJECT_DIR$/hold.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0201.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0001_initial.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0214.py" />
-        <option value="$PROJECT_DIR$/data/minerals.json" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0649.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0653.py" />
-        <option value="$PROJECT_DIR$/python_proj6/settings.py" />
-        <option value="$USER_HOME$/Desktop/minerals-3/example/index.html" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
-        <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html" />
-        <option value="$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css" />
-        <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" />
-        <option value="$PROJECT_DIR$/templates/home.html" />
-        <option value="$PROJECT_DIR$/assets/css/global.css" />
-        <option value="$PROJECT_DIR$/bin/pyvenv.cfg" />
-        <option value="$PROJECT_DIR$/requirements.txt" />
-        <option value="$PROJECT_DIR$/trace_minerals/views.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/urls.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/models.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py" />
-        <option value="$PROJECT_DIR$/python_proj6/urls.py" />
-        <option value="$PROJECT_DIR$/python_proj6/views.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/tests.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="2560" />
     <option name="height" value="1440" />
   </component>
@@ -202,18 +977,6 @@
               <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
               <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-              <item name="tests.py" type="8704e2dd:PyFileNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -221,25 +984,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="PyDebuggerOptionsProvider">
-    <option name="mySaveCallSignatures" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/trace_minerals/static/trace_minerals/css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets/css" />
-      <recent name="$PROJECT_DIR$/trace_minerals/static/trace_minerals" />
-    </key>
+  <component name="PyCoverageOptionsProvider">
+    <option name="myUseBundledCoveragePy" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,7 +1001,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django server.python_proj6">
+  <component name="RunManager" selected="Django tests.test django">
     <configuration name="test django" type="DjangoTestsConfigurationType" activateToolWindowBeforeRun="false">
       <module name="python_proj6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -332,7 +1080,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9cceb1f2-3483-4b44-9b19-01a9ca66dae0" name="Default Changelist" comment="" />
+      <changelist id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="" />
       <created>1552600514509</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -341,7 +1089,8 @@
       <workItem from="1552601961331" duration="105000" />
       <workItem from="1552604171197" duration="4649000" />
       <workItem from="1552609847467" duration="78095000" />
-      <workItem from="1553034904964" duration="3549000" />
+      <workItem from="1553034904964" duration="4444000" />
+      <workItem from="1553101723678" duration="185000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with project plan">
       <created>1552610155092</created>
@@ -371,58 +1120,28 @@
       <option name="project" value="LOCAL" />
       <updated>1552986046850</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mvp has been reached, documentation complete &#10;after commit will merge with master and submit">
+      <created>1553038615187</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1553038615187</updated>
+    </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_django - 2019.03.17 at 23h 56m 19s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.17 at 23h 56m 32s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.17 at 23h 56m 50s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.17 at 23h 57m 13s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.17 at 23h 59m 47s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.18 at 00h 19m 09s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.18 at 11h 32m 47s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.19 at 01h 54m 57s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.19 at 01h 55m 21s.xml">
-      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
-    </history-entry>
-    <history-entry file="test_django - 2019.03.19 at 12h 22m 37s.xml">
+    <history-entry file="test_django - 2019.03.19 at 17h 09m 41s.xml">
       <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87251000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="933000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <frame x="0" y="23" width="2560" height="1417" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16693291" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16853034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -483,215 +1202,27 @@
     <MESSAGE value="Written model and tests project URl layout and home skeleton templates" />
     <MESSAGE value="custom migration, app URL, views implemented 92% test coverage" />
     <MESSAGE value="layout template complete, index.template complete, detail template near complete&#10;todo finish detail template get images to load correctly" />
-    <option name="LAST_COMMIT_MESSAGE" value="layout template complete, index.template complete, detail template near complete&#10;todo finish detail template get images to load correctly" />
+    <MESSAGE value="mvp has been reached, documentation complete &#10;after commit will merge with master and submit" />
+    <option name="LAST_COMMIT_MESSAGE" value="mvp has been reached, documentation complete &#10;after commit will merge with master and submit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/manage.py">
+    <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Pythonlearning/django_learning2/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Pythonlearning/django_learning2/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Pythonlearning/django_learning2/django_learning2/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Pythonlearning/django_learning2/django_learning2/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="51" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="51" />
-          <folding>
-            <element signature="e#640#672#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2045.py" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190315_2326.py" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0201.py" />
-    <entry file="file://$PROJECT_DIR$/hold.py" />
-    <entry file="file://$PROJECT_DIR$/bin/lib/python3.7/site-packages/django/core/serializers/python.py" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0214.py" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0649.py" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/apps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.coverage">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/css/global.css" />
-    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/index.html" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="29" lean-forward="true" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/minerals-3/example/detail.html" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190316_0653.py" />
-    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainite.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/images/Kainosite.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/minerals.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2376">
-          <caret line="3432" column="13" selection-start-line="3432" selection-start-column="9" selection-end-line="3432" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="10" lean-forward="true" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="12" column="68" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="208" column="64" selection-start-line="208" selection-start-column="64" selection-end-line="208" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_proj6/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/pip-selfcheck.json" />
-    <entry file="file://$PROJECT_DIR$/bin/pyvenv.cfg" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/admin.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0003_auto_20190319_0753.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0004_auto_20190319_0941.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_proj6/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#228#237#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/lib/python3.7/site-packages/django/template/defaulttags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="164" selection-start-line="164" selection-end-line="164" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/lib/python3.7/site-packages/django/core/handlers/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="704">
+          <caret line="32" column="8" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/migrations/0002_auto_20190319_0329.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="154">
           <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
           <folding>
             <element signature="e#49#81#0" expanded="true" />
@@ -699,24 +1230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/python_proj6/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="118" column="49" lean-forward="true" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
+        <state relative-caret-position="2294">
+          <caret line="119" column="42" selection-start-line="119" selection-start-column="42" selection-end-line="119" selection-end-column="42" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>

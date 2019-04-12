@@ -1,1 +1,1 @@
-web:gunicorn python_proj6.wsgi
+web: gunicorn python_proj6.wsgi

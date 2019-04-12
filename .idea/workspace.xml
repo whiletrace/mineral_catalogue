@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_proj6/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/settings.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +47,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_proj6/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="917">
+            <state relative-caret-position="873">
               <caret line="127" column="46" lean-forward="true" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
             </state>
           </provider>
@@ -215,7 +214,7 @@
       <workItem from="1553101723678" duration="433000" />
       <workItem from="1553147817853" duration="302000" />
       <workItem from="1553670231833" duration="304000" />
-      <workItem from="1555049261708" duration="1017000" />
+      <workItem from="1555049261708" duration="1333000" />
     </task>
     <task id="LOCAL-00001" summary="hot fix to include related image files">
       <created>1553102071802</created>
@@ -238,12 +237,12 @@
       <option name="project" value="LOCAL" />
       <updated>1555055885671</updated>
     </task>
-    <task id="LOCAL-00004" summary="layout template complete, index.template complete, detail template near complete&#10;todo finish detail template get images to load correctly">
-      <created>1552986046850</created>
+    <task id="LOCAL-00004" summary="corrected error in requirements.txt commit includes updates to migration&#10;files">
+      <created>1555056354383</created>
       <option name="number" value="00004" />
       <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
-      <updated>1552986046850</updated>
+      <updated>1555056354383</updated>
     </task>
     <task id="LOCAL-00005" summary="mvp has been reached, documentation complete &#10;after commit will merge with master and submit">
       <created>1553038615187</created>
@@ -252,7 +251,7 @@
       <option name="project" value="LOCAL" />
       <updated>1553038615187</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -261,11 +260,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2804000" />
+    <option name="totallyTimeSpent" value="3120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17452076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -395,7 +393,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_proj6/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="917">
+        <state relative-caret-position="873">
           <caret line="127" column="46" lean-forward="true" selection-start-line="127" selection-start-column="46" selection-end-line="127" selection-end-column="46" />
         </state>
       </provider>

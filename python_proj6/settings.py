@@ -25,7 +25,7 @@ SECRET_KEY = '09z(zh04=xroub372ih+t1rwblz$buf&!nkxg&szs!1c22(h@b'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['pure-cove-11075.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition

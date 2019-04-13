@@ -25,14 +25,14 @@ def load_data(apps, schema_editor):
     filepath = os.path.join(settings.BASE_DIR, 'data/minerals.json')
 
     with open(filepath, mode='r', encoding='utf-8') as file:
-        with open(filepath, mode='r', encoding='utf-8') as file:
-            data = json.load(file)
-            scrubbed_data = []
-            for obj in data:
-                corrected_obj = {k.replace(' ', '_'):v for k, v in obj.items()}
-                scrubbed_data.append(mineral(**corrected_obj))
+        data = json.load(file)
+        scrubbed_data = []
+        for obj in data:
+            corrected_obj = {k.replace(' ', '_'): v for k, v in obj.items()}
+            scrubbed_data.append(mineral(**corrected_obj))
 
         mineral.objects.bulk_create(scrubbed_data)
+        file.close()
 
 
 class Migration(migrations.Migration):

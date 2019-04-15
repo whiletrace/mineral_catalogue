@@ -12,5 +12,8 @@ ALLOWED_HOSTS = [
 
 SECRET_KEY = get_env_variable('SECRET_KEY')
 
+MIDDLEWARE = [
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+    ]
 db_from_env = dj_database_url.config()
 DATABASES['default'].update(db_from_env)

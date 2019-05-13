@@ -1,1 +1,1 @@
-# Python_Proj6
+# Mineral Catalogue

@@ -21,12 +21,12 @@ This is a django built dynamic app that displays minerals and there attributes, 
 * crystal habit
 * specific gravity
 
-data can be found at ./data/minerals.json 
+data can be found at **./data/minerals.json** 
 data is outputted minerals list pg 
 and minerals detail pg
  ###built on:
  
- **sufficient to run locallay**
+ **sufficient to run locally**
  * python  3.5
  * django  2.1.7
  * pytz 2018.2
@@ -40,7 +40,7 @@ and minerals detail pg
  ## to run locally:
  * clone repo and cd to root dir
  * suggested that you run virtualenv
- * pip install -r requirements.txt** within shell
+ * pip install **-r requirements.txt** within shell
  
  ###create db tables and migrate data
  *  run **python manage.py makemigrations**
@@ -49,4 +49,4 @@ and minerals detail pg
  ### start server
  *  run **python manage.py runserver 8000**
  ## to run tests:
- ** run manage.py tests
+ * run manage.py tests

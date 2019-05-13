@@ -1,5 +1,8 @@
 from django.shortcuts import render
+
 from .models import Mineral
+
+
 # Create your views here.
 
 
@@ -28,3 +31,27 @@ def mineral_detail(request, pk):
     mineral = Mineral.objects.get(pk=pk)
 
     return render(request, 'trace_minerals/detail.html', {'mineral': mineral})
+
+
+#Todo filter_by_letter
+# get value of asic lowercase alphabet to pass to view
+# pass the asic to template as context
+# write to query to search db
+# query return list of  minerals with first letter of char chosen by user
+# default is letter a
+# query takes no longer than 10ms
+
+#Todo text_search
+# get value of input of search form
+# list of results of mineral names that contain text from search input
+# query takes no longer than 10 ms
+
+#Todo filter by group
+# silicates, Oxides, Sulfates, Sulfides, Carbonates, Carbonates, Halides
+# hardcode list in layout template
+# query db based upon mineral attr group
+# SulfoSalt, Phosphates, Borates, Organic Minerals,
+# Arsenates, Native Elements, Other
+# return list of minerals that have that group attr
+# query takes no longer than 10 ms
+# return list view

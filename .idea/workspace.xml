@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="corrected error in requirements.txt commit includes updates to migration&#10;preparing app for deployment using Heroku should not be pushing to master">
+    <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -86,15 +87,6 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/runtime.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="12" selection-start-column="12" selection-end-column="12" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="SPLIT">
@@ -127,7 +119,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="154">
@@ -135,6 +127,15 @@
                   <folding>
                     <element signature="e#0#32#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.travis.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -167,6 +168,7 @@
         <option value="$PROJECT_DIR$/python_proj6/deploy_settings/__init__.py" />
         <option value="$PROJECT_DIR$/python_proj6/deploy.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -338,7 +340,7 @@
       <workItem from="1555049261708" duration="1333000" />
       <workItem from="1555062027118" duration="14472000" />
       <workItem from="1555299400603" duration="1019000" />
-      <workItem from="1557723636994" duration="293000" />
+      <workItem from="1557723636994" duration="563000" />
     </task>
     <task id="LOCAL-00001" summary="hot fix to include related image files">
       <created>1553102071802</created>
@@ -398,10 +400,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19799000" />
+    <option name="totallyTimeSpent" value="20069000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17971246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -526,7 +529,8 @@
     <MESSAGE value="corrected error in requirements.txt commit includes updates to migration&#10;files" />
     <MESSAGE value="Revert: preparation for deployment on heroku" />
     <MESSAGE value="corrected error in requirements.txt commit includes updates to migration&#10;preparing app for deployment using Heroku should not be pushing to master" />
-    <option name="LAST_COMMIT_MESSAGE" value="corrected error in requirements.txt commit includes updates to migration&#10;preparing app for deployment using Heroku should not be pushing to master" />
+    <MESSAGE value="integrating travis ci created .travis.yml for python build" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrating travis ci created .travis.yml for python build" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -681,6 +685,13 @@
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
         </state>
       </provider>
     </entry>

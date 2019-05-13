@@ -37,12 +37,12 @@ and minerals detail pg
  * psycopg2-binary 2.8.1
  * whitenoise 4.1.2
  
- ## to run locally:
+ ### to run locally:
  * clone repo and cd to root dir
  * suggested that you run virtualenv
  * pip install **-r requirements.txt** within shell
  
- ###create db tables and migrate data
+ ### create db tables and migrate data
  *  run **python manage.py makemigrations**
  *  run **python manage.py migrate** 
  

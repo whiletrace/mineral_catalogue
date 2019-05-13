@@ -24,9 +24,8 @@ current mineral attributes displayed:
 
 data can be found at **./data/minerals.json**
 site caontains: minerals list and minerals detail
- ###built on:
- 
- **sufficient to run locally**
+
+ ### built on:
  * python  3.5
  * django  2.1.7
  * pytz 2018.2

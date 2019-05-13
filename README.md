@@ -1,7 +1,8 @@
 # Mineral Catalogue [![Build Status](https://travis-ci.com/whiletrace/Python_Proj6.svg?branch=master)](https://travis-ci.com/whiletrace/Python_Proj6)
 ## summary
-This is a django built dynamic app that displays minerals<br 
-attributes, current mineral attributes displayed: 
+This is a django  built dynamic app that displays minerals <br/>attributes,
+current mineral attributes displayed: 
+>>>>>>> d07fca7d41250cebea0b30daad801122563c5986
 * name
 * image filename
 * image caption
@@ -22,12 +23,10 @@ attributes, current mineral attributes displayed:
 * crystal habit
 * specific gravity
 
-data can be found at **./data/minerals.json** 
-data is outputted minerals list pg 
-and minerals detail pg
- ###built on:
- 
- **sufficient to run locally**
+data can be found at **./data/minerals.json**
+site caontains: minerals list and minerals detail
+
+ ### built on:
  * python  3.5
  * django  2.1.7
  * pytz 2018.2

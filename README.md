@@ -1,6 +1,7 @@
 # Mineral Catalogue [![Build Status](https://travis-ci.com/whiletrace/Python_Proj6.svg?branch=master)](https://travis-ci.com/whiletrace/Python_Proj6)
 ## summary
-This is a django built dynamic app that displays minerals and there attributes, current mineral attributes displayed: 
+This is a django built dynamic app that displays minerals<br 
+attributes, current mineral attributes displayed: 
 * name
 * image filename
 * image caption

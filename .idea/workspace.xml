@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -340,7 +338,7 @@
       <workItem from="1555049261708" duration="1333000" />
       <workItem from="1555062027118" duration="14472000" />
       <workItem from="1555299400603" duration="1019000" />
-      <workItem from="1557723636994" duration="563000" />
+      <workItem from="1557723636994" duration="972000" />
     </task>
     <task id="LOCAL-00001" summary="hot fix to include related image files">
       <created>1553102071802</created>
@@ -391,7 +389,14 @@
       <option name="project" value="LOCAL" />
       <updated>1555111473932</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="integrating travis ci created .travis.yml for python build">
+      <created>1557724226776</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557724226776</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -400,13 +405,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20069000" />
+    <option name="totallyTimeSpent" value="20478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17971246" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17971246" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -420,7 +424,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960065" weight="0.14384615" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007987" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" visible="true" weight="0.29692307" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" visible="true" weight="0.29692307" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.15295528" />

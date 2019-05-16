@@ -130,6 +130,38 @@ class MineralViewsTests(TestCase):
         self.assertEqual(resp.resolver_match.func, views.mineral_glossary)
         self.assertTemplateUsed(resp, 'trace_minerals/index.html')
 
+    def test_minerals_search_view(self):
+        """
+            unit test for search view logic
+
+            asserts correct status code,  context,,
+            template rendered, and contains and
+            query contents and number of queries
+            to db
+
+        """
+        resp = self.client.get('/search/', {'q':'allophane'})
+        self.assertEquals(resp.status_code, 200)
+        #context = resp.context['minerals']
+        self.assertEqual(resp.resolver_match.func, views.mineral_search)
+        self.assertTemplateUsed(resp, 'trace_minerals/index.html')
+
+    def test_minerals_group_view(self):
+        """
+            unit test for search view logic
+
+            asserts correct status code,  context,,
+            template rendered, and contains and
+            query contents and number of queries
+            to db
+
+        """
+        resp = self.client.get('/group/', {'group':'Halides'})
+        self.assertEquals(resp.status_code, 200)
+        #context = resp.context['minerals']
+        self.assertEqual(resp.resolver_match.func, views.mineral_group)
+        self.assertTemplateUsed(resp, 'trace_minerals/index.html')
+
     def test_mineral_detail_view(self):
         """
                     unit test for detail view logic

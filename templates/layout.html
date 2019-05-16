@@ -28,6 +28,40 @@
             </a>
             <p class="logo__text text-centered">They're not rocks!</p>
         </div>
+        <section class="top-bar-right">
+            <form action="{% url 'trace_minerals:search' %}" method="GET">
+                <ul class="menu">
+
+                    <li><label for="search for minerals">Search by name
+                        <input type="search" name="q">
+                    </label></li>
+                    <li>
+                        <button type="submit" class="secondary small button">search</button>
+                    </li>
+                </ul>
+            </form>
+            <nav>
+                <ul>
+
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Silicates">Silicates</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Oxides">Sulfates</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Sulfates">Sulfates</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Sulfides">Sulfides</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Carbonates">Carbonates</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Halides">Halides</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Sulfosalts">Sulfosalts</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Phosphates">Phosphates</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Borates">Borates</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Organic Minerals">Organic
+                        Minerals</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Arsenates">Arsenates</a></li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Native Elements">Native
+                        Elements</a>/li>
+                    <li><a href="{% url 'trace_minerals:trace_minerals_group' %}?group=Other">Other</a></li>
+                </ul>
+            </nav>
+
+        </section>
         <div class="grid-100">
             {% glossary_filter %}
             {% block content %}

@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trace_minerals/templatetags/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/groupsearch.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_proj6/deploy_settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/deploy_settings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_proj6/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_proj6/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_proj6/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace_minerals/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/tests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace_minerals/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace_minerals/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/views.py" afterDir="false" />
@@ -27,7 +23,7 @@
     <SUITE FILE_PATH="coverage/python_proj6$test_django.coverage" NAME="test django Coverage Results" MODIFIED="1553040578757" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="264" />
+    <option name="myElementSize" value="268" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -51,89 +47,38 @@
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="python_proj6" />
+  </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/trace_minerals/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="308">
-                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-                  <folding>
-                    <element signature="e#0#28#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="689">
-                  <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-                  <folding>
-                    <element signature="e#636#668#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="742">
-                  <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-                  <folding>
-                    <element signature="e#0#40#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="176">
-                  <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-                  <folding>
-                    <element signature="e#0#27#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/python_proj6/settings.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="54">
-                  <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#313#322#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="681">
-                  <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trace_minerals/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="707">
+              <caret line="52" column="79" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.coverage">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -161,14 +106,15 @@
         <option value="$PROJECT_DIR$/trace_minerals/forms.py" />
         <option value="$PROJECT_DIR$/python_proj6/deploy_settings/__init__.py" />
         <option value="$PROJECT_DIR$/assets/css/global.css" />
-        <option value="$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html" />
-        <option value="$PROJECT_DIR$/trace_minerals/urls.py" />
         <option value="$PROJECT_DIR$/python_proj6/settings.py" />
         <option value="$PROJECT_DIR$/python_proj6/urls.py" />
-        <option value="$PROJECT_DIR$/trace_minerals/views.py" />
+        <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/groupsearch.html" />
+        <option value="$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py" />
+        <option value="$PROJECT_DIR$/trace_minerals/urls.py" />
+        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/trace_minerals/tests.py" />
+        <option value="$PROJECT_DIR$/trace_minerals/views.py" />
       </list>
     </option>
   </component>
@@ -204,42 +150,7 @@
             <path>
               <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
               <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-              <item name="templatetags" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
-              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
-              <item name="models.py" type="8704e2dd:PyFileNode" />
             </path>
           </expand>
           <select />
@@ -274,7 +185,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Django tests.Test: trace_minerals.tests.MineralViewsTests.test_minerals_list_view">
+  <component name="RunManager" selected="Django tests.test django">
     <configuration name="Test: trace_minerals.tests.MineralModelTests" type="DjangoTestsConfigurationType" temporary="true">
       <module name="python_proj6" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -554,7 +465,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557810798212</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="glossary filtering and tests associated unit tests implemented created, added custom template tag">
+      <created>1557972976998</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557972976998</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -582,20 +500,26 @@
     <history-entry file="Test__trace_minerals_tests_MineralViewsTests_test_minerals_list_view - 2019.05.15 at 19h 04m 28s.xml">
       <configuration name="Test: trace_minerals.tests.MineralViewsTests.test_minerals_list_view" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
+    <history-entry file="Test__trace_minerals_tests_MineralViewsTests_test_minerals_list_view - 2019.05.15 at 22h 05m 58s.xml">
+      <configuration name="Test: trace_minerals.tests.MineralViewsTests.test_minerals_list_view" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
+    <history-entry file="test_django - 2019.05.15 at 22h 52m 54s.xml">
+      <configuration name="test django" configurationId="DjangoTestsConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50868000" />
+    <option name="totallyTimeSpent" value="57820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13977636" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9006211" visible="true" weight="0.29952076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.099378884" side_tool="true" weight="0.13977636" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25692308" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25692308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -607,7 +531,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" weight="0.31153846" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.15295528" />
+      <window_info active="true" anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.15295528" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
@@ -615,12 +539,12 @@
       <window_info anchor="right" id="Database" order="5" weight="0.32947284" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13977636" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9006211" visible="true" weight="0.13977636" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.099378884" side_tool="true" visible="true" weight="0.13977636" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.13692307" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25692308" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -629,7 +553,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960065" weight="0.14384615" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5007987" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" weight="0.042307694" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" weight="0.31153846" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.15295528" />
@@ -719,7 +643,8 @@
     <MESSAGE value="a couple style tweaks for README file" />
     <MESSAGE value="django toolbar installation and feature psuedo code finished" />
     <MESSAGE value="fixed issue with test and debug_toolbar travis ci should be passing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed issue with test and debug_toolbar travis ci should be passing" />
+    <MESSAGE value="glossary filtering and tests associated unit tests implemented created, added custom template tag" />
+    <option name="LAST_COMMIT_MESSAGE" value="glossary filtering and tests associated unit tests implemented created, added custom template tag" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -727,7 +652,8 @@
     <SUITE FILE_PATH="coverage/python_proj6$Test__trace_minerals_tests_MineralViewsTests_test_minerals_glossary_view.coverage" NAME="Test: trace_minerals.tests.MineralViewsTests.test_minerals_glossary_view Coverage Results" MODIFIED="1557972035514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/python_proj6$Test__trace_minerals_tests_MineralModelTests.coverage" NAME="Test: trace_minerals.tests.MineralModelTests Coverage Results" MODIFIED="1557969763887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/python_proj6$Test__trace_minerals_tests_MineralViewsTests.coverage" NAME="Test: trace_minerals.tests.MineralViewsTests Coverage Results" MODIFIED="1557971899939" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/python_proj6$Test__trace_minerals_tests_MineralViewsTests_test_minerals_list_view.coverage" NAME="Test: trace_minerals.tests.MineralViewsTests.test_minerals_list_view Coverage Results" MODIFIED="1557972266433" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python_proj6$Test__trace_minerals_tests_MineralViewsTests_test_minerals_list_view.coverage" NAME="Test: trace_minerals.tests.MineralViewsTests.test_minerals_list_view Coverage Results" MODIFIED="1557983156342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/python_proj6$test_django.coverage" NAME="test django Coverage Results" MODIFIED="1557985947937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html">
@@ -850,45 +776,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="788">
-          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/python_proj6/views.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_proj6/urls.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -914,52 +809,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py">
+    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="54">
+          <caret line="2" column="107" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="206" column="38" lean-forward="true" selection-start-line="206" selection-start-column="38" selection-end-line="206" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3525">
+          <caret line="157" column="11" lean-forward="true" selection-start-line="157" selection-start-column="11" selection-end-line="157" selection-end-column="11" />
           <folding>
-            <element signature="e#0#27#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_proj6/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        <state relative-caret-position="364">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
           <folding>
             <element signature="e#313#322#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html">
+    <entry file="file://$PROJECT_DIR$/trace_minerals/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+        <state relative-caret-position="324">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="43" column="99" selection-start-line="43" selection-start-column="99" selection-end-line="43" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/groupsearch.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="681">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="707">
+          <caret line="52" column="79" selection-start-line="52" selection-start-column="79" selection-end-line="52" selection-end-column="79" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/.coverage">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

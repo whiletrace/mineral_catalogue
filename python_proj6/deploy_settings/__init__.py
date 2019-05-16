@@ -1,8 +1,8 @@
-from python_proj6.settings import *
-
 import dj_database_url
 
-DEBUG = False
+from python_proj6.settings import *
+
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = [

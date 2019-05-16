@@ -206,7 +206,11 @@ table, p, ul { margin-bottom: 2.5rem; }
 .mineral__category { font-weight: bold; width: 40%; }
 .mineral__formula { font-size: 12px; }
 
-.home_title { position: absolute;margin-right: 50%; margin-top: }
+.home_title {
+    position: absolute;
+    margin-right: 50%;
+    margin-top: 10%
+}
 
 .title h1   {
    margin-right: 50%;

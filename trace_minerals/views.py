@@ -33,6 +33,14 @@ def mineral_detail(request, pk):
     return render(request, 'trace_minerals/detail.html', {'mineral': mineral})
 
 
+def mineral_glossary(request):
+    minerals = Mineral.objects.filter(name__istartswith=request.GET.get("char"))
+    return render(request, 'trace_minerals/index.html', {'minerals':minerals})
+
+
+
+
+
 #Todo filter_by_letter
 # get value of asic lowercase alphabet to pass to view
 # pass the asic to template as context

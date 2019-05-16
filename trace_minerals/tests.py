@@ -1,9 +1,11 @@
-from django.test import TestCase
+from django.test import Client, TestCase
 from django.urls import reverse
 
+from . import views
 # Create your tests here.
 from .models import Mineral
 
+client = Client()
 
 class MineralModelTests(TestCase):
     """ unit test for the db """
@@ -111,6 +113,22 @@ class MineralViewsTests(TestCase):
         self.assertIn(self.mineral2, resp.context['minerals'])
         self.assertTemplateUsed(resp, 'trace_minerals/index.html')
         self.assertContains(resp, self.mineral.name)
+
+    def test_minerals_glossary_view(self):
+        """
+            unit test for glossary view logic
+
+            asserts correct status code,  context,,
+            template rendered, and contains and
+            query contents and number of queries
+            to db
+
+        """
+        resp = self.client.get('/glossary/', {'char':'p'})
+        self.assertEquals(resp.status_code, 200)
+        context = resp.context['minerals']
+        self.assertEqual(resp.resolver_match.func, views.mineral_glossary)
+        self.assertTemplateUsed(resp, 'trace_minerals/index.html')
 
     def test_mineral_detail_view(self):
         """

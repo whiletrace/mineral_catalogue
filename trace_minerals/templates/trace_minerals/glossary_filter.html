@@ -1,0 +1,5 @@
+<span class="minerals__container">
+            {% for char in glossary|make_list %}
+                <a href="{% url 'trace_minerals:trace_minerals_glossary' %}?char={{ char }}">{{ char }}</a>
+            {% endfor %}
+</span>

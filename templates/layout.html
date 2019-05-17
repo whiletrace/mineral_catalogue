@@ -9,15 +9,19 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'css/user.css' %}">
+
         <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,500' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static 'css/global.css' %}">
+
         {% block static %}{% endblock %}
     </head>
 
 <body>
+
     <div class="bounds">
-        <div class="grid-100">
+        <div class="grid-65">
             <a href="{% url 'trace_minerals:trace_minerals_index' %}">
                 <svg class="logo" viewBox="0 0 127.6 84.8" preserveAspectRation="xMinYMin meet">
                     <polygon points="42.7,84.8 49.6,79.4 40,62.5 51.2,43.5 51.2,43.5 25,0 0,55.6 "/>
@@ -28,7 +32,12 @@
             </a>
             <p class="logo__text text-centered">They're not rocks!</p>
         </div>
-        <section class="top-bar-right">
+
+
+        <div class="  grid-100 ">
+
+            {% glossary_filter %}
+            <section class="grid-25 float align-left">
             <form action="{% url 'trace_minerals:search' %}" method="GET">
                 <ul class="menu">
 
@@ -62,8 +71,6 @@
             </nav>
 
         </section>
-        <div class="grid-100">
-            {% glossary_filter %}
             {% block content %}
             {% endblock %}
 

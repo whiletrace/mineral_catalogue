@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block content %}
-<ul class="minerals__container">
+    <ul class="minerals__container grid-75 float-left">
     {% for mineral in minerals %}
         <li class="minerals__item">
             <a class="minerals__anchor" href="{% url 'trace_minerals:trace_minerals_detail' pk=mineral.pk %}">{{ mineral.name }}</a>

@@ -1,5 +1,6 @@
-<span class="minerals__container">
+<span class="grid-100">
             {% for char in glossary|make_list %}
-                <a href="{% url 'trace_minerals:trace_minerals_glossary' %}?char={{ char }}">{{ char }}</a>
+                <a class="glossary"
+                   href="{% url 'trace_minerals:trace_minerals_glossary' %}?char={{ char }}">{{ char }}</a>
             {% endfor %}
 </span>

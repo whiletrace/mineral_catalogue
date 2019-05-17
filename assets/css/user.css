@@ -1,3 +1,11 @@
-.glossary a {
-    padding-right: 15px;
+.glossary li {
+    display: inline-block;
+    padding-right: 0.47em;
+
+}
+
+.glossary li a:active {
+    display: inline-block;
+    padding-right: 0.47em;
+    font-weight: bold;
 }

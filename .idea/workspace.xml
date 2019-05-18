@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/user.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -57,20 +59,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="88">
-                  <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/assets/css/user.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="132">
-                  <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+                <state relative-caret-position="352">
+                  <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -78,12 +71,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="44">
-                  <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+                <state relative-caret-position="66">
+                  <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -91,8 +84,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="125">
-                  <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="61" />
+                <state relative-caret-position="770">
+                  <caret line="37" column="61" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="61" />
                 </state>
               </provider>
             </entry>
@@ -100,8 +93,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
-                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="220">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
                   </folding>
@@ -113,7 +106,7 @@
             <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="22">
-                  <caret line="1" column="33" lean-forward="true" selection-end-line="1" selection-end-column="33" />
+                  <caret line="1" column="33" selection-end-line="1" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -159,15 +152,15 @@
         <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html" />
         <option value="$PROJECT_DIR$/assets/css/global.css" />
         <option value="$PROJECT_DIR$/templates/layout.html" />
-        <option value="$PROJECT_DIR$/assets/css/user.css" />
         <option value="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html" />
+        <option value="$PROJECT_DIR$/assets/css/user.css" />
+        <option value="$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="877" />
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,7 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,6 +195,27 @@
               <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
               <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
+              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
+              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_proj6" type="462c0819:PsiDirectoryNode" />
+              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="trace_minerals" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_proj6" type="b2602c69:ProjectViewProjectNode" />
@@ -240,6 +253,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +476,8 @@
       <workItem from="1555062027118" duration="14472000" />
       <workItem from="1555299400603" duration="1019000" />
       <workItem from="1557723636994" duration="972000" />
-      <workItem from="1558120072549" duration="5711000" />
+      <workItem from="1558120072549" duration="5961000" />
+      <workItem from="1558200415436" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="hot fix to include related image files">
       <created>1553102071802</created>
@@ -583,7 +598,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558135524368</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="text search and filter by group and associated unit tests implemented next step clean up css">
+      <created>1558137552945</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558137552945</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -619,18 +641,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68080000" />
+    <option name="totallyTimeSpent" value="68925000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9006211" visible="true" weight="0.21242775" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.9006211" visible="true" weight="0.11940894" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.099378884" side_tool="true" weight="0.13977636" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21578947" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17076923" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -968,20 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="33" lean-forward="true" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -996,34 +1004,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="37" column="61" lean-forward="true" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="61" />
+        <state relative-caret-position="770">
+          <caret line="37" column="61" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="220">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/user.css">
+    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="22">
+          <caret line="1" column="33" selection-end-line="1" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html">
+    <entry file="file://$PROJECT_DIR$/assets/css/user.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/trace_minerals/static/trace_minerals/css/trace_minerals.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="352">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>

@@ -35,8 +35,12 @@ def mineral_detail(request, pk):
 
 def mineral_glossary(request):
     char = request.GET.get('char')
+    print(char)
     minerals = Mineral.objects.filter(name__istartswith=char)
-    return render(request, 'trace_minerals/index.html', {'minerals':minerals})
+
+    return render(request, 'trace_minerals/index.html', {'minerals':minerals,
+                                                         'char':char
+                                                         })
 
 
 def mineral_search(request):

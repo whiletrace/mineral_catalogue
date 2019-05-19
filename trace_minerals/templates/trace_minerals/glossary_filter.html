@@ -3,7 +3,10 @@
 
     {% for char in glossary|make_list %}
         <li>
+
             <a href="{% url 'trace_minerals:trace_minerals_glossary' %}?char={{ char }}">{{ char }}</a>
+            {{ current_letter }}
+
         </li>
 
     {% endfor %}

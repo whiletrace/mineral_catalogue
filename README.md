@@ -22,10 +22,11 @@ current mineral attributes displayed:
 * refractive index
 * crystal habit
 * specific gravity
+* group
 
 filters on:
 
-Glossary A-Z, Mineral Group, text search (contained within user name)
+Glossary A-Z, Mineral Group, text search (contained within name)
 
 data can be found at **./data/minerals.json**
 site caontains: minerals list and minerals detail

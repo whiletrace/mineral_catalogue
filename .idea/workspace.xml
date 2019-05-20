@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="feature completed filter by glossary, filter by group and text search executing as expected all unit tests passing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/user.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/user.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templates/trace_minerals/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trace_minerals/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/trace_minerals/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="7fe0a4e1-1307-416d-bfc2-75096e513325" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +49,7 @@
             <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="264">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                  <caret line="13" selection-start-line="13" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
@@ -80,7 +69,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
+                <state relative-caret-position="443">
                   <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
                   <folding>
                     <element signature="e#0#13#0" expanded="true" />
@@ -93,7 +82,7 @@
             <entry file="file://$PROJECT_DIR$/templates/layout.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="176">
-                  <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+                  <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -114,8 +103,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/templates/layout.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="836">
-                  <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+                <state relative-caret-position="792">
+                  <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -124,10 +113,7 @@
             <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="1584">
-                  <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-                  <folding>
-                    <element signature="e#0#35#0" expanded="true" />
-                  </folding>
+                  <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -135,11 +121,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="122">
+                <state relative-caret-position="172">
                   <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
-                  <folding>
-                    <element signature="e#0#40#0" expanded="true" />
-                  </folding>
                 </state>
               </provider>
             </entry>
@@ -148,7 +131,7 @@
             <entry file="file://$PROJECT_DIR$/assets/css/user.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="200">
-                  <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+                  <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -519,7 +502,7 @@
       <workItem from="1557723636994" duration="972000" />
       <workItem from="1558120072549" duration="5961000" />
       <workItem from="1558200415436" duration="27186000" />
-      <workItem from="1558377792798" duration="8342000" />
+      <workItem from="1558377792798" duration="8628000" />
     </task>
     <task id="LOCAL-00001" summary="hot fix to include related image files">
       <created>1553102071802</created>
@@ -661,7 +644,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558236368345</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feature completed filter by glossary, filter by group and text search executing as expected all unit tests passing">
+      <created>1558388774562</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1558388774562</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -697,10 +687,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103858000" />
+    <option name="totallyTimeSpent" value="104144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.9006211" visible="true" weight="0.15415336" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -716,7 +707,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49960065" weight="0.14384615" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32894737" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50119805" side_tool="true" weight="0.17076923" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" visible="true" weight="0.31153846" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49920127" weight="0.31153846" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32894737" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" visible="true" weight="0.2767341" />
@@ -833,7 +824,8 @@
     <MESSAGE value="fixed issue with test and debug_toolbar travis ci should be passing" />
     <MESSAGE value="glossary filtering and tests associated unit tests implemented created, added custom template tag" />
     <MESSAGE value="text search and filter by group and associated unit tests implemented next step clean up css" />
-    <option name="LAST_COMMIT_MESSAGE" value="text search and filter by group and associated unit tests implemented next step clean up css" />
+    <MESSAGE value="feature completed filter by glossary, filter by group and text search executing as expected all unit tests passing" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature completed filter by glossary, filter by group and text search executing as expected all unit tests passing" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -1052,7 +1044,7 @@
     <entry file="file://$PROJECT_DIR$/trace_minerals/templates/trace_minerals/glossary_filter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -1066,30 +1058,27 @@
     <entry file="file://$PROJECT_DIR$/assets/css/user.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
-          <caret line="56" column="1" lean-forward="true" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+          <caret line="59" column="1" lean-forward="true" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
+        <state relative-caret-position="792">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1584">
-          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/templatetags/minerals_extras.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
+        <state relative-caret-position="443">
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -1099,11 +1088,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/trace_minerals/tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
+        <state relative-caret-position="172">
           <caret line="101" column="4" selection-start-line="101" selection-start-column="4" selection-end-line="101" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

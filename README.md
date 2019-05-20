@@ -25,9 +25,7 @@ current mineral attributes displayed:
 
 filters on:
 
-Glossary A-Z
-Mineral Group
-and user Text search
+Glossary A-Z, Mineral Group, text search (contained within user name)
 
 data can be found at **./data/minerals.json**
 site caontains: minerals list and minerals detail

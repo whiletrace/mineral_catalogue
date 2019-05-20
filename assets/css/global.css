@@ -1,9 +1,7 @@
 html { font-family: sans-serif; -ms-text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
 
-body { margin: 0; }
-
-.glossary a {
-    margin-right: 15%;
+body {
+    margin: 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
@@ -127,7 +125,10 @@ body { background-color: #CAE5D2; font-size: 1.5em; line-height: 1.6; font-weigh
 @media (min-width: 640px) { .grid-pull-95 { left: -95%; } }
 @media (min-width: 640px) { .grid-push-95 { left: 95%; } }
 @media screen and (max-width: 640px) { .grid-95 { width: 100%; left: 0; } }
-.grid-100 { width: 100%; padding: 0 15px; }
+
+.grid-100 {
+    width: 100%;
+}
 @media (min-width: 640px) { .grid-pull-100 { left: -100%; } }
 @media (min-width: 640px) { .grid-push-100 { left: 100%; } }
 @media screen and (max-width: 640px) { .grid-100 { width: 100%; left: 0; } }

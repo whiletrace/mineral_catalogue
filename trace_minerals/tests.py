@@ -99,21 +99,6 @@ class MineralViewsTests(TestCase):
             group='team trimily'
         )
 
-    def test_minerals_list_view(self):
-        """
-            unit test for index view logic
-
-            asserts correct status code,  context,,
-            template rendered, and contains
-
-        """
-        resp = self.client.get(reverse('trace_minerals:trace_minerals_index'))
-        self.assertEqual(resp.status_code, 200)
-        self.assertIn(self.mineral, resp.context['minerals'])
-        self.assertIn(self.mineral2, resp.context['minerals'])
-        self.assertTemplateUsed(resp, 'trace_minerals/index.html')
-        self.assertContains(resp, self.mineral.name)
-
     def test_minerals_glossary_view(self):
         """
             unit test for glossary view logic

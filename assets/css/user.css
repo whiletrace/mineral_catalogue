@@ -1,15 +1,88 @@
 
-.glossary li {
-    display: inline-block;
-    padding-right: 0.47em;
+.glossary {
+    background-color: darkcyan;
 
 }
 
-.glossary li a:active {
+.glossary a {
+    font-family: "Work Sans", sans-serif;
+    color: floralwhite;
+}
 
-    font-weight: bold;
+.glossary a:hover {
+    font-family: "Work Sans", sans-serif;
+    background-color: midnightblue;
+    color: floralwhite;
+}
+
+.glossary li {
+    margin-top: 1rem;
+    display: inline-block;
+    padding-right: 1.5%;
+}
+
+.glossary ul {
+
+    margin-left: 7%;
+    margin-right: 5%;
+}
+
+nav ul {
+    padding-right: 3rem;
+    list-style: none;
+    list-style-position: inside;
+    text-align: right;
 }
 
 .bold {
-    font-weight: bold
+    font-weight: 900;
+    background-color: midnightblue;
+    text-underline: floralwhite;
+}
+
+.filtered {
+    float: right;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.filter_list {
+    margin-bottom: 0;
+}
+
+.grouped {
+    width: 25%;
+    float: left;
+}
+
+.highlight {
+    color: midnightblue;
+}
+
+.mineral__container {
+    width: 75%;
+    float: right;
+}
+
+.minerals__container {
+    width: 71%;
+    float: right;
+}
+
+.search {
+
+    padding-right: 2rem;
+    float: right;
+}
+
+.search button {
+    float: right;
+    padding: 3px 10px;
+    margin-top: 3px;
+    margin-right: 16px;
+    margin-left: 1rem;
+    background: darkgrey;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
 }

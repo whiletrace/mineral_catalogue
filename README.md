@@ -2,7 +2,7 @@
 ## summary
 This is a django  built dynamic app that displays minerals <br/>attributes,
 current mineral attributes displayed: 
->>>>>>> d07fca7d41250cebea0b30daad801122563c5986
+
 * name
 * image filename
 * image caption
@@ -22,6 +22,12 @@ current mineral attributes displayed:
 * refractive index
 * crystal habit
 * specific gravity
+
+filters on:
+
+Glossary A-Z
+Mineral Group
+and user Text search
 
 data can be found at **./data/minerals.json**
 site caontains: minerals list and minerals detail

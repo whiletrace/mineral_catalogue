@@ -7,6 +7,7 @@ from .models import Mineral
 
 client = Client()
 
+
 class MineralModelTests(TestCase):
     """ unit test for the db """
     def test_mineral_creation(self):
@@ -97,7 +98,7 @@ class MineralViewsTests(TestCase):
                           'rectangular in shape',
             specific_gravity='2.88',
             group='team trimily'
-        )
+            )
 
     def test_minerals_glossary_view(self):
         """
@@ -111,7 +112,6 @@ class MineralViewsTests(TestCase):
         """
         resp = self.client.get('/glossary/', {'char':'p'})
         self.assertEquals(resp.status_code, 200)
-        context = resp.context['minerals']
         self.assertEqual(resp.resolver_match.func, views.mineral_glossary)
         self.assertTemplateUsed(resp, 'trace_minerals/index.html')
 

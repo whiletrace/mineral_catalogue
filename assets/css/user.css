@@ -18,19 +18,18 @@
 .glossary li {
     margin-top: 1rem;
     display: inline-block;
-    padding-right: 1.5%;
+    padding-right: .5%;
 }
 
 .glossary ul {
 
-    margin-left: 7%;
-    margin-right: 5%;
+    margin-left: 6%;
+    margin-right: 0;
 }
 
 nav ul {
     padding-right: 3rem;
-    list-style: none;
-    list-style-position: inside;
+    list-style: none inside none;
     text-align: right;
 }
 
@@ -43,7 +42,6 @@ nav ul {
 .filtered {
     float: right;
     padding-right: 0;
-    padding-left: 0;
 }
 
 .filter_list {
@@ -52,7 +50,13 @@ nav ul {
 
 .grouped {
     width: 25%;
-    float: left;
+    float: right;
+}
+
+.grouped li {
+    padding-right: 5px;
+    list-style: none;
+    text-align: right;
 }
 
 .highlight {
@@ -60,27 +64,22 @@ nav ul {
 }
 
 .mineral__container {
-    width: 75%;
+    width: 68%;
     float: right;
 }
 
 .minerals__container {
-    width: 71%;
+    width: 68%;
     float: right;
 }
 
 .search {
-
-    padding-right: 2rem;
-    float: right;
+    width: 65%;
+    float: left;
 }
 
-.search button {
-    float: right;
+.search_button {
     padding: 3px 10px;
-    margin-top: 3px;
-    margin-right: 16px;
-    margin-left: 1rem;
     background: darkgrey;
     font-size: 17px;
     border: none;

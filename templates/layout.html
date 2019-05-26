@@ -34,29 +34,31 @@
             <p class="logo__text text-centered">They're not rocks!</p>
         </div>
 
-        <div class="  grid-100 ">
+        <div class="grid-100 ">
             <div class="grid-75 filtered">
                 {% glossary_filter current_letter=char %}
             </div>
 
             {% block content %}
             {% endblock %}
-            <form action="{% url 'trace_minerals:search' %}" method="GET">
-                <div class="search">
 
-                    <label for="search">
-                        <input type="search" name="q" placeholder="search">
-                    </label>
-
-                    <button type="submit" class="secondary small button">submit</button>
-
-                </div>
-            </form>
             <section class=" grouped">
 
+                <div class="grid-100 text_search">
 
-                <nav>
-                <ul>
+                    <form action="{% url 'trace_minerals:search' %}" method="GET">
+                        <label for="search">
+                            <input class="search" type="search" name="q" placeholder="search">
+                        </label>
+                        <button class="search_button" type="submit">submit</button>
+                    </form>
+
+                </div>
+
+
+                <div class="grid-100 group">
+
+                    <ul>
 
                     <li><a {% if group == 'Silicates' %} class="highlight" {% endif %}
                                                          href="{% url 'trace_minerals:trace_minerals_group' %}?group=Silicates">Silicates</a>
@@ -99,7 +101,7 @@
                     </li>
 
                 </ul>
-            </nav>
+                    <div>
 
             </section>
         </div>

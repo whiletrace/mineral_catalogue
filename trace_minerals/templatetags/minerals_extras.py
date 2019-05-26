@@ -11,9 +11,9 @@ def glossary_filter(**kwargs):
 
     this is outputted to Glossary_filter.html
     :param **kwargs
-    :type dict
+
     :var glossary
-    :type str
+
     :return dict
     """
     glossary = string.ascii_uppercase

@@ -1,0 +1,87 @@
+
+.glossary {
+    background-color: darkcyan;
+
+}
+
+.glossary a {
+    font-family: "Work Sans", sans-serif;
+    color: floralwhite;
+}
+
+.glossary a:hover {
+    font-family: "Work Sans", sans-serif;
+    background-color: midnightblue;
+    color: floralwhite;
+}
+
+.glossary li {
+    margin-top: 1rem;
+    display: inline-block;
+    padding-right: .5%;
+}
+
+.glossary ul {
+
+    margin-left: 6%;
+    margin-right: 0;
+}
+
+nav ul {
+    padding-right: 3rem;
+    list-style: none inside none;
+    text-align: right;
+}
+
+.bold {
+    font-weight: 900;
+    background-color: midnightblue;
+    text-underline: floralwhite;
+}
+
+.filtered {
+    float: right;
+    padding-right: 0;
+}
+
+.filter_list {
+    margin-bottom: 0;
+}
+
+.grouped {
+    width: 25%;
+    float: right;
+}
+
+.grouped li {
+    padding-right: 5px;
+    list-style: none;
+    text-align: right;
+}
+
+.highlight {
+    color: midnightblue;
+}
+
+.mineral__container {
+    width: 73.5%;
+    float: right;
+}
+
+.minerals__container {
+    width: 68%;
+    float: right;
+}
+
+.search {
+    width: 65%;
+    float: left;
+}
+
+.search_button {
+    padding: 3px 10px;
+    background: darkgrey;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}

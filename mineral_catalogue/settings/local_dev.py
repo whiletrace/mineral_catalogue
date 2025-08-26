@@ -105,6 +105,8 @@ WSGI_APPLICATION = 'mineral_catalogue.wsgi.application'
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
 if os.environ.get('DATABASE_URL'):
     DATABASES = {'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+    # Force psycopg3 backend for security
+    DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql'
 else:
     DATABASES = {
     'default': {
